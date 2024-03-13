@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"mach_xe_srf04_encoder_lcd_stm32\startup_stm32f103xb.o"
+"mach_xe_srf04_encoder_lcd_stm32\main.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_it.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_msp.o"
+"mach_xe_srf04_encoder_lcd_stm32\lcd1602_4bit.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_gpio_ex.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_tim.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_tim_ex.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_rcc.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_rcc_ex.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_gpio.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_dma.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_cortex.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_pwr.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_flash.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_flash_ex.o"
+"mach_xe_srf04_encoder_lcd_stm32\stm32f1xx_hal_exti.o"
+"mach_xe_srf04_encoder_lcd_stm32\system_stm32f1xx.o"
+--strict --scatter "Mach_xe_SRF04_Encoder_LCD_STM32\Mach_xe_SRF04_Encoder_LCD_STM32.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Mach_xe_SRF04_Encoder_LCD_STM32.map" -o Mach_xe_SRF04_Encoder_LCD_STM32\Mach_xe_SRF04_Encoder_LCD_STM32.axf

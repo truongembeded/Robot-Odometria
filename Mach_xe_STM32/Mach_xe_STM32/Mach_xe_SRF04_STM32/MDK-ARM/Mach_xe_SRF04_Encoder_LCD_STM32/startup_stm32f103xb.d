@@ -1,0 +1,1 @@
+mach_xe_srf04_encoder_lcd_stm32\startup_stm32f103xb.o: startup_stm32f103xb.s
